@@ -110,7 +110,7 @@ button:focus {
       left: 70%; } }
 
 .header-plus-main {
-  background-image: url("../../pictures/headerBg.png");
+  background-image: url("../pictures/headerBg.png");
   background-repeat: no-repeat; }
 
 .logo {
@@ -201,7 +201,7 @@ i {
 
 @media screen and (max-width: 992px) {
   .header-plus-main {
-    background-image: url("../../pictures/headerBg991.png");
+    background-image: url("../pictures/headerBg991.png");
     background-position: 50px -50px;
     position: relative; }
     .header-plus-main .social-list {
@@ -248,7 +248,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .header-plus-main {
-    background-image: url("../../pictures/headerBg768.png");
+    background-image: url("../pictures/headerBg768.png");
     background-size: contain;
     background-position: 20px 0;
     position: relative; }
@@ -264,7 +264,7 @@ i {
 
 @media screen and (max-width: 480px) {
   .header-plus-main {
-    background-image: url("../../pictures/headerBg480.png");
+    background-image: url("../pictures/headerBg480.png");
     background-size: contain;
     position: relative; }
     .header-plus-main .container {
@@ -296,7 +296,7 @@ i {
     text-align: center; } }
 
 .skills {
-  background-image: url("../../pictures/skillsBg.png");
+  background-image: url("../pictures/skillsBg.png");
   background-repeat: no-repeat;
   background-position: -50px 100px; }
 
@@ -401,7 +401,7 @@ i {
       margin-top: 80px; } }
 
 .about-me {
-  background-image: url("../../pictures/aboutMe.png");
+  background-image: url("../pictures/aboutMe.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px 250px;
@@ -421,7 +421,7 @@ i {
     padding-left: 27px; }
     .about-me-main .about-me-skills-list li {
       font-size: 26px;
-      list-style-image: url("../../pictures/ul.png");
+      list-style-image: url("../pictures/ul.png");
       padding-left: 25px;
       margin-bottom: 35px;
       color: #888888; }
@@ -441,7 +441,7 @@ i {
 
 @media screen and (max-width: 992px) {
   .about-me {
-    background-image: url("/pictures/aboutMe991.png");
+    background-image: url("../pictures/aboutMe991.png");
     background-size: cover;
     background-position: center -400px; }
     .about-me .header {
@@ -452,7 +452,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .about-me {
-    background-image: url("/pictures/aboutMe991.png");
+    background-image: url("../pictures/aboutMe991.png");
     background-size: cover;
     background-position: center -200px;
     padding-top: 10px; }
@@ -476,14 +476,14 @@ i {
     grid-column: 1/-1;
     justify-self: center; }
     .about-me-main .about-me-skills-list li {
-      list-style-image: url("../../pictures/ul768.png");
+      list-style-image: url("../pictures/ul768.png");
       font-size: 37px;
       text-align: left; } }
 
 @media screen and (max-width: 480px) {
   .about-me {
     padding: 0;
-    background-image: url("/pictures/aboutMe480.png");
+    background-image: url("../pictures/aboutMe480.png");
     background-size: cover;
     background-position: center 100px; }
     .about-me .header {
@@ -498,12 +498,12 @@ i {
     .about-me .about-me-main .about-me-skills-list {
       justify-self: center; }
       .about-me .about-me-main .about-me-skills-list li {
-        list-style-image: url("../../pictures/ul480.png");
+        list-style-image: url("../pictures/ul480.png");
         font-size: 24px; } }
 
 .services {
   margin-top: 100px;
-  background-image: url("../../pictures/ServicesBg.png");
+  background-image: url("../pictures/ServicesBg.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
   border-bottom: 3px solid #aeb5f9; }
@@ -564,7 +564,7 @@ i {
 
 .portfolio {
   height: 840px;
-  background: url("../../pictures/portfolioBg.png") no-repeat 140px 0; }
+  background: url("../pictures/portfolioBg.png") no-repeat 140px 0; }
   .portfolio .section-title {
     margin: 0;
     padding-top: 100px;
@@ -590,12 +590,12 @@ i {
 
 .reviews {
   height: 866px;
-  background: url("../../pictures/reviewsBg.png") no-repeat;
+  background: url("../pictures/reviewsBg.png") no-repeat;
   background-position: center center; }
 
 .contacts {
   height: 665px;
-  background: url("../../pictures/contactsBg.png") 0 -120px no-repeat, url("../../pictures/contactsBg2.png") 0 683px repeat-x;
+  background: url("../pictures/contactsBg.png") 0 -120px no-repeat, url("../pictures/contactsBg2.png") 0 683px repeat-x;
   padding-top: 100px; }
   .contacts .section-title {
     margin-top: 0px; }
@@ -677,12 +677,12 @@ i {
 
 @media screen and (max-width: 1366px) {
   .contacts {
-    background: url("../../pictures/contactsBg.png") -300px -120px no-repeat, url("../../pictures/contactsBg2.png") 0 683px repeat-x; } }
+    background: url("../pictures/contactsBg.png") -300px -120px no-repeat, url("../pictures/contactsBg2.png") 0 683px repeat-x; } }
 
 @media screen and (max-width: 992px) {
   .contacts {
     height: 1155px;
-    background: url("../../pictures/contactsBg991.png") 0 -410px, url("../../pictures/contactsBg2.png") 0 1231px repeat-x; }
+    background: url("../pictures/contactsBg991.png") 0 -410px, url("../pictures/contactsBg2.png") 0 1231px repeat-x; }
     .contacts .contacts-form-box {
       justify-content: center; }
       .contacts .contacts-form-box .form-text {
@@ -692,7 +692,7 @@ i {
 
 @media screen and (max-width: 480px) {
   .contacts {
-    background: url("../../pictures/contactsBg480.png") 0 100px no-repeat, url("../../pictures/contactsBg2.png") 0 901px repeat-x;
+    background: url("../pictures/contactsBg480.png") 0 100px no-repeat, url("../pictures/contactsBg2.png") 0 901px repeat-x;
     height: 826px; }
     .contacts .contacts-form-box {
       justify-content: center; }

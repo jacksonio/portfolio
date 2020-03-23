@@ -1,7 +1,7 @@
 .contacts {
     height: 665px;
-    background:url("../../pictures/contactsBg.png") 0 -120px no-repeat,
-    url("../../pictures/contactsBg2.png") 0 683px repeat-x;
+    background:url("../pictures/contactsBg.png") 0 -120px no-repeat,
+    url("../pictures/contactsBg2.png") 0 683px repeat-x;
     padding-top: 100px ;
 
     .section-title {
@@ -105,16 +105,16 @@
 
 @media screen and (max-width: 1366px) {
     .contacts {
-        background:url("../../pictures/contactsBg.png") -300px -120px no-repeat,
-        url("../../pictures/contactsBg2.png") 0 683px repeat-x;
+        background:url("../pictures/contactsBg.png") -300px -120px no-repeat,
+        url("../pictures/contactsBg2.png") 0 683px repeat-x;
     }
 }
 
 @media screen and (max-width: 992px) {
     .contacts {
         height: 1155px;
-        background: url("../../pictures/contactsBg991.png") 0 -410px,
-        url("../../pictures/contactsBg2.png") 0 1231px repeat-x;
+        background: url("../pictures/contactsBg991.png") 0 -410px,
+        url("../pictures/contactsBg2.png") 0 1231px repeat-x;
 
 
         .contacts-form-box {
@@ -138,8 +138,8 @@
 
 @media screen and (max-width: 480px) {
     .contacts {
-        background:url("../../pictures/contactsBg480.png") 0 100px no-repeat,
-        url("../../pictures/contactsBg2.png") 0 901px repeat-x;
+        background:url("../pictures/contactsBg480.png") 0 100px no-repeat,
+        url("../pictures/contactsBg2.png") 0 901px repeat-x;
 
         height: 826px;
         .contacts-form-box {

@@ -1,5 +1,5 @@
 .header-plus-main {
-    background-image: url('../../pictures/headerBg.png');
+    background-image: url('../pictures/headerBg.png');
     background-repeat: no-repeat;
 }
 
@@ -128,7 +128,7 @@ i {
 @media screen and (max-width:992px) {
     
     .header-plus-main {
-        background-image: url('../../pictures/headerBg991.png');
+        background-image: url('../pictures/headerBg991.png');
         background-position: 50px -50px;
         position: relative;
 
@@ -200,7 +200,7 @@ i {
 @media screen and (max-width:768px) {
     
     .header-plus-main {
-        background-image: url('../../pictures/headerBg768.png');
+        background-image: url('../pictures/headerBg768.png');
         background-size: contain;
         background-position: 20px 0;
         position: relative;
@@ -224,7 +224,7 @@ i {
 
 @media screen and (max-width:480px) {
     .header-plus-main {
-        background-image: url('../../pictures/headerBg480.png');
+        background-image: url('../pictures/headerBg480.png');
         background-size: contain;
         position: relative;
 
