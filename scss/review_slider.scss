@@ -1,0 +1,39 @@
+.swiper-item {
+    margin-top: 200px;
+    background-color: white;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+
+    .review-foto {
+        padding-top: 70px;
+    }
+
+    .review-description {
+        padding-top: 45px;
+        font-size: 17px;
+        position: relative;
+        color: #646464;
+        &::before {
+            top: 8px;
+            left: calc((100% - 83px  )/2);
+            height: 3px;
+            width: 83px;
+            position: absolute;
+            content: '';
+            background-color: $purple;
+
+        }
+    }
+
+    .review-name {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+
+    .review-job {
+        color: #646464 ;
+        font-size: 17px;
+    }
+}
+

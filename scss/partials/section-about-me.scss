@@ -1,0 +1,158 @@
+.about-me {
+    background-image: url('../../pictures/aboutMe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 250px;
+    
+    padding-left: 12px;
+    padding-top: 100px;
+    border-bottom: 3px solid $border-bottom-color;
+
+    .header{
+        margin-top: 90px;
+        font-size: 35px;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+}
+
+.about-me-main {
+    display: flex;
+    justify-content: flex-end;
+    .about-me-skills-list {
+        padding-left: 27px;
+
+        li {
+            font-size: 26px;
+            list-style-image: url('../../pictures/ul.png') ;
+            padding-left: 25px;
+            margin-bottom: 35px;
+            color: #888888;
+        }
+    }
+}
+
+.box {
+    width: 50%;
+}
+
+
+
+.leave-contact-button {
+    width: 250px;
+    height: 70px;
+    margin-bottom: 195px;
+}
+
+
+@media screen and (max-width: 1366px) {
+
+    .about-me{
+        background-size: cover;
+        background-position-x: -250px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .about-me{
+        background-image: url('/pictures/aboutMe991.png');
+        background-size: cover;
+        background-position: center -400px;
+
+        .header {
+
+            strong {
+                font-size: 56px;
+            }
+            font-size: 51px;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .about-me{
+        background-image: url('/pictures/aboutMe991.png');
+        background-size: cover;
+        background-position: center -200px;
+        padding-top: 10px;
+        .header {
+
+            strong {
+                font-size: 56px;
+            }
+            font-size: 51px;
+            text-align: center;
+            grid-column: 2/2;
+            margin-top: 180px;
+            
+        }
+
+        .box {
+            padding-top: 100px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-row-gap: 200px;
+        }
+        .leave-contact-button {
+            display: none;
+        }
+    }
+
+    .about-me-main {
+
+        .about-me-skills-list {
+            grid-column: 1/-1;
+            justify-self: center;
+    
+            li {
+                list-style-image: url('../../pictures/ul768.png') ;
+                font-size: 37px;
+                text-align: left;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 480px) {
+
+    .about-me {
+        padding: 0;
+        background-image: url('/pictures/aboutMe480.png');
+        background-size: cover;
+        background-position: center 100px;
+
+        .header {
+            margin-top: 20px;
+            strong {
+                font-size: 35px;
+            }
+            font-size: 30px;
+        }
+
+        .box {
+            grid-row-gap: 0;
+            padding-top: 180px;
+            padding-left: 0;
+        }
+
+        .about-me-main {
+
+            .about-me-skills-list {
+                justify-self: center;
+        
+                li {
+                    list-style-image: url('../../pictures/ul480.png') ;
+                    font-size: 24px;
+                }
+            }
+        } 
+    }
+}

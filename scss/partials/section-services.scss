@@ -1,0 +1,85 @@
+.services {
+    margin-top: 100px;
+    background-image: url('../../pictures/ServicesBg.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    border-bottom: 3px solid $border-bottom-color;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    margin-top: 35px;
+    width: 270px;
+    height: 270px;
+    background-color: $purple-backgr;
+    opacity: 0.8;
+    margin-bottom: 140px;
+
+    img {
+        display: block;
+        margin: auto auto;
+        padding-top: 50px;  
+    }
+
+    h1 {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .services-container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-row-gap: 40px;
+        margin-bottom: 40px;
+    }
+    .item {
+        margin: 0;
+        background-color:transparent;
+
+        .logo {
+            padding: 0;
+            margin: auto;
+        }
+        .header {
+            font-size: 27px;
+        }
+        .item-description {
+            font-size: 27px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services-container {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services-container {
+        grid-template-rows:  1fr;
+        grid-template-columns: 1fr;
+    
+        .item {
+            margin-top: 35px;
+            width: 100%;
+        }
+
+    }
+}

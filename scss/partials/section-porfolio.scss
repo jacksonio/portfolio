@@ -1,0 +1,54 @@
+.portfolio {
+    height: 840px;
+    background: url("../../pictures/portfolioBg.png") no-repeat 140px 0;
+
+    .section-title {
+        margin: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        &::before {
+            top: 108px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1366px) {
+
+
+    .portfolio {
+        .section-title {
+
+            &::before {
+                top: 108px;
+            }
+        
+        }
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    .portfolio{
+        text-align: center;
+        display: block;
+        position: relative;
+        font-size: 35px;
+        padding-left: 0;
+
+
+        .section-title {
+            &::before {
+                top: 117px;
+            }
+    
+            &::after {
+                top: 117px;
+            }
+    
+        }
+    }
+    
+}

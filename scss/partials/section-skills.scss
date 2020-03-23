@@ -1,0 +1,145 @@
+.skills {
+    background-image: url("../../pictures/skillsBg.png");
+    background-repeat: no-repeat ;
+    background-position: -50px 100px;
+}
+
+.skills-box-header {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    margin-top: 180px;
+  
+}
+
+.skills-box-description{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.skills-box-item-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-item-name {
+    color: #b0b0b0;
+}
+
+.progressbar {
+    background-color: $purple-backgr;
+    border-radius: 13px;
+    height: 25px;
+    width : auto;
+  }
+
+.procentage {
+    background-color: $purple;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.html-procentage {
+    width: 99%;
+  }
+
+.css-procentage {
+    width: 99%; 
+}
+
+.js-procentage {
+    width: 98%;
+}
+
+.ui-procentage {
+    width: 98%;
+}
+
+.ux-procentage {
+    width: 95%;
+}
+
+.photoshop-procentage {
+    width: 90%;
+}
+
+.skills-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-button {
+    width: 240px;
+    height: 70px;
+    border: 2px solid $purple;
+    margin: 50px auto 100px;
+}
+
+
+.skills-button-right {
+    background-image: none; 
+    background-color: transparent;
+    color: $purple;
+
+    &:hover {
+        color: $orange;
+        border: 2px solid $orange;
+        background-color: transparent;
+    }
+}
+
+
+
+@media screen and (max-width: 1366px) {
+    .skills {
+        background-position: -300px 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .skills {
+        background-position: -500px 300px;
+
+        .wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .box {
+            text-align: center;
+        }
+    }
+
+    .skills-item-name {
+        font-size: 27px;
+    }
+    .procents {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        text-align: center;
+        padding-left: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        background: white;
+
+        .box {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .skills-button {
+            width: 210px;
+        }
+        .skills-box-header {
+            margin-top: 80px;
+        }
+    }
+}

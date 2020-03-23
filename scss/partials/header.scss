@@ -1,0 +1,272 @@
+.header-plus-main {
+    background-image: url('../../pictures/headerBg.png');
+    background-repeat: no-repeat;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+
+    &::after {
+        content: '.';
+        color: $purple;
+    }
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 20px;   
+}
+
+.nav {
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 0;
+    border-bottom: 2px solid #d9ddfb;
+
+    li {
+        padding-left: 23px;
+        margin-left: 50px;
+        position: relative;
+
+        &:first-child {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        a{
+            color: #494949;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1;
+            display: inline-block;
+            text-decoration: none;
+            cursor: pointer;
+            
+            &::after {
+                margin-top: 1.5px;
+                position: absolute;
+                display: block;
+                content: "";
+                height: 2px;
+                width: 0%;
+                background-color: $orange;
+                transition: width .3s ease-in-out;
+            }
+
+            &:hover:after,
+            &:focus:after {
+                width: 80%;
+            } 
+
+            
+        }
+    }
+    
+}
+
+.nav li:first-child a:hover:after,
+.nav li:first-child a:focus:after {
+    width: 120%;
+}
+
+.header-main {
+    padding-top: 63px;
+    padding-bottom: 70px;
+
+}
+
+.name {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.prof {
+    font-family: 'PT Sans', sans-serif;
+
+    color: $purple;
+    font-size: 31px;
+    font-weight: 400;
+
+    margin-top: 20px;
+}
+
+.description {
+    display: none;
+}
+
+.hire-me {
+    margin-top: 100px;
+    height: 65px;
+    width: 220px;
+    margin-bottom: 70px;
+    }
+
+i {
+    color: #ccc;
+}
+
+@media screen and (max-width:1366px) {
+    .header-plus-main {
+        background-position-x: -300px; 
+    }
+
+
+   
+
+    .header-main {
+        padding-top: 20px;
+    }
+    .hire-me {
+        margin-bottom: 120px;
+        }
+}
+
+@media screen and (max-width:992px) {
+    
+    .header-plus-main {
+        background-image: url('../../pictures/headerBg991.png');
+        background-position: 50px -50px;
+        position: relative;
+
+        .social-list {
+            display: flex;
+            position: absolute;
+            right: 10px;
+            top: 40px;
+            
+            .social {
+                font-size: 39px;
+            }
+        }
+
+        .container {
+            height: 1200px;
+        }
+        .section-title {
+            display: none;
+        }
+        .social-list {
+            padding-right: 40px;
+        }
+    }
+    
+    
+    .logo {
+        padding-left: 80px;
+    }
+
+    .nav {
+        display: none;
+    }
+   
+    .navigation {
+        padding-top: 30px;
+        padding-bottom: 70px; 
+    }
+    
+    .name {
+        text-align: center;
+        position: relative;
+        font-size: 46px;
+        &::before {
+                top: -30px;
+                left: 45%;
+                height: 3px;
+                width: 55px;
+                position: absolute;
+                content: '';
+                background-color: $purple;
+        }
+    }
+    .prof {
+        text-align: center;
+        font-size: 41px;
+        }
+    .description {
+        display: block;
+        font-size: 27px;
+        text-align: center;
+    }
+    
+    .hire-me {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .header-plus-main {
+        background-image: url('../../pictures/headerBg768.png');
+        background-size: contain;
+        background-position: 20px 0;
+        position: relative;
+
+        .social-list {
+            display: flex;
+            position: absolute;
+            right: 10px;
+            top: 40px;
+            
+            .social {
+                font-size: 39px;
+            }
+        }
+
+        .container {
+            height: 958px;
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header-plus-main {
+        background-image: url('../../pictures/headerBg480.png');
+        background-size: contain;
+        position: relative;
+
+        .container {
+            height: 600px;
+        }
+        .social-list {
+            display: flex;
+            position: absolute;
+            padding-right: 10px;
+            right: 5px;
+            top: 5px;
+            
+            .social {
+                font-size: 39px;
+            }
+        }
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .navigation {
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 10px; 
+    }
+
+    .name {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 0;
+        }
+    .prof {
+            text-align: center;
+            font-size: 25px;
+            }
+    .description {
+                display: block;
+                font-size: 20px;
+                text-align: center;
+            }
+    
+}
+
+

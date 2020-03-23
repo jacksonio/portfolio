@@ -1,0 +1,14 @@
+@import "typography";
+@import "variables";
+@import "common";
+
+@import "partials/header";
+@import "partials/section-skills";
+@import "partials/section-about-me";
+@import "partials/section-services";
+@import "partials/section-porfolio";
+@import "partials/section-reviews";
+@import "partials/section-contact-me";
+@import "partials/footer";
+@import "../scss/swiper";
+@import "../scss/review_slider.scss";
