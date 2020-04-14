@@ -109,6 +109,13 @@ i {
     color: #ccc;
 }
 
+@media screen and (max-width: 1920px) {
+    .header-plus-main {
+        background-position-x: -200px; 
+    }
+
+}
+
 @media screen and (max-width:1366px) {
     .header-plus-main {
         background-position-x: -300px; 
@@ -270,3 +277,24 @@ i {
 }
 
 
+@media screen and (max-width: 360px) {
+    .header-plus-main {
+        background-image: url('../pictures/headerBg360.png');
+        background-position: center 300px;
+
+        .social-list {
+
+            .social {
+                font-size: 29px;
+            }
+        
+        }   
+        .logo {
+        font-size: 24px;
+        }
+
+        .name {
+        font-size: 25px;
+        }  
+    }
+}

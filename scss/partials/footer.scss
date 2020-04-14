@@ -210,3 +210,25 @@
         
     }
 }
+
+@media screen and (max-width: 360px) {
+    .footer {
+        grid-template-columns: 1fr;
+        .footer-body {
+            width: 100%;
+            justify-content: center;
+        }
+        .footer-social {
+            width: 100%;
+            justify-content: center;
+
+            .social {
+                font-size: 45px;
+                width: 100%;
+                justify-content: center;
+                margin: 16px;
+            }
+        }
+        
+    }
+}

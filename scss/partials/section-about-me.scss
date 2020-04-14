@@ -44,6 +44,14 @@
     margin-bottom: 195px;
 }
 
+@media screen and (max-width: 1920px) {
+
+    .about-me{
+        background-size: cover;
+        background-position-x: -200px;
+    }
+}
+
 
 @media screen and (max-width: 1366px) {
 

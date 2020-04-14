@@ -109,6 +109,14 @@ button:focus {
     .section-title::after {
       left: 70%; } }
 
+@media screen and (max-width: 360px) {
+  .section-title {
+    font-size: 30px; }
+    .section-title::before {
+      left: 11%; }
+    .section-title::after {
+      left: 75%; } }
+
 .header-plus-main {
   background-image: url("../pictures/headerBg.png");
   background-repeat: no-repeat; }
@@ -190,6 +198,10 @@ button:focus {
 
 i {
   color: #ccc; }
+
+@media screen and (max-width: 1920px) {
+  .header-plus-main {
+    background-position-x: -200px; } }
 
 @media screen and (max-width: 1366px) {
   .header-plus-main {
@@ -294,6 +306,17 @@ i {
     display: block;
     font-size: 20px;
     text-align: center; } }
+
+@media screen and (max-width: 360px) {
+  .header-plus-main {
+    background-image: url("../pictures/headerBg360.png");
+    background-position: center 300px; }
+    .header-plus-main .social-list .social {
+      font-size: 29px; }
+    .header-plus-main .logo {
+      font-size: 24px; }
+    .header-plus-main .name {
+      font-size: 25px; } }
 
 .skills {
   background-image: url("../pictures/skillsBg.png");
@@ -433,6 +456,11 @@ i {
   width: 250px;
   height: 70px;
   margin-bottom: 195px; }
+
+@media screen and (max-width: 1920px) {
+  .about-me {
+    background-size: cover;
+    background-position-x: -200px; } }
 
 @media screen and (max-width: 1366px) {
   .about-me {
@@ -675,6 +703,10 @@ i {
   top: 250px;
   left: 100px; }
 
+@media screen and (max-width: 1920px) {
+  .contacts {
+    background: url("../pictures/contactsBg.png") -300px -97px no-repeat, url("../pictures/contactsBg2.png") 0 675px repeat-x; } }
+
 @media screen and (max-width: 1366px) {
   .contacts {
     background: url("../pictures/contactsBg.png") -300px -120px no-repeat, url("../pictures/contactsBg2.png") 0 683px repeat-x; } }
@@ -709,6 +741,26 @@ i {
           width: 405px; }
         .contacts .contacts-form-box .form .contacts-leave-contact-button {
           left: 55px; } }
+
+@media screen and (max-width: 360px) {
+  .contacts {
+    background: url("../pictures/contactsBg480.png") 0 100px no-repeat, url("../pictures/contactsBg2.png") 0 901px repeat-x;
+    height: 826px; }
+    .contacts .contacts-form-box {
+      justify-content: center; }
+      .contacts .contacts-form-box .form {
+        margin-top: 24px; }
+        .contacts .contacts-form-box .form .contacts-form-input-name {
+          width: 280px; }
+        .contacts .contacts-form-box .form .contacts-form-surname {
+          display: none; }
+        .contacts .contacts-form-box .form .contacts-form-input-surname {
+          display: none; }
+        .contacts .contacts-form-box .form .contacts-form-input-email {
+          width: 280px; }
+        .contacts .contacts-form-box .form .contacts-leave-contact-button {
+          left: 25px;
+          width: 303px; } }
 
 .footer {
   background-color: #e1e3fd;
@@ -847,6 +899,21 @@ i {
       justify-content: center; }
       .footer .footer-social .social {
         font-size: 60px;
+        width: 100%;
+        justify-content: center;
+        margin: 16px; } }
+
+@media screen and (max-width: 360px) {
+  .footer {
+    grid-template-columns: 1fr; }
+    .footer .footer-body {
+      width: 100%;
+      justify-content: center; }
+    .footer .footer-social {
+      width: 100%;
+      justify-content: center; }
+      .footer .footer-social .social {
+        font-size: 45px;
         width: 100%;
         justify-content: center;
         margin: 16px; } }

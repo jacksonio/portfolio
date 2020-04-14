@@ -102,6 +102,13 @@
     left: 100px;
 }
 
+@media screen and (max-width: 1920px) {
+    .contacts {
+        background:url("../pictures/contactsBg.png") -300px -97px no-repeat,
+        url("../pictures/contactsBg2.png") 0 675px repeat-x;
+    }
+}
+
 
 @media screen and (max-width: 1366px) {
     .contacts {
@@ -132,10 +139,6 @@
     }
 }
 
-// @media screen and (max-width: 768px) {
-    
-// }
-
 @media screen and (max-width: 480px) {
     .contacts {
         background:url("../pictures/contactsBg480.png") 0 100px no-repeat,
@@ -164,6 +167,43 @@
                 }
                 .contacts-leave-contact-button {
                     left: 55px
+                }
+            }
+
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 360px) {
+    .contacts {
+        background:url("../pictures/contactsBg480.png") 0 100px no-repeat,
+        url("../pictures/contactsBg2.png") 0 901px repeat-x;
+
+        height: 826px;
+        .contacts-form-box {
+            justify-content: center;
+
+           
+            .form {
+                margin-top: 24px;
+
+                .contacts-form-input-name {
+                    width: 280px;
+                }
+                .contacts-form-surname {
+                    display: none;
+                }
+                .contacts-form-input-surname {
+                    display: none;
+                }
+                .contacts-form-input-email {
+                    width: 280px;
+                }
+                .contacts-leave-contact-button {
+                    left: 25px;
+                    width: 303px;
                 }
             }
 
