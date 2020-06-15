@@ -67,6 +67,15 @@
 .skills-buttons {
     display: flex;
     justify-content: space-evenly;
+    a {
+        text-decoration: none;
+        text-align: center;
+        line-height: 4.2;
+        border-radius: 26px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+    }
 }
 
 .skills-button {
@@ -86,6 +95,18 @@
         color: $orange;
         border: 2px solid $orange;
         background-color: transparent;
+    }
+}
+
+.skills-button-left {
+    background-color: $purple;
+    color: white;
+    border: 0;
+
+    &:hover {
+        background-color: $orange;
+        border: 0;
+        cursor: pointer;
     }
 }
 

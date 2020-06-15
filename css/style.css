@@ -41,7 +41,7 @@ a {
     .social-list .social:hover {
       color: #edce4f; }
 
-button {
+.btn {
   border-radius: 26px;
   background-color: #9aa3f8;
   text-transform: uppercase;
@@ -49,7 +49,7 @@ button {
   font-weight: 700;
   color: white;
   border: 0; }
-  button:hover {
+  .btn:hover {
     background-color: #f0c40c;
     border: 0; }
 
@@ -373,6 +373,14 @@ i {
 .skills-buttons {
   display: flex;
   justify-content: space-evenly; }
+  .skills-buttons a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 4.2;
+    border-radius: 26px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700; }
 
 .skills-button {
   width: 240px;
@@ -388,6 +396,15 @@ i {
     color: #f0c40c;
     border: 2px solid #f0c40c;
     background-color: transparent; }
+
+.skills-button-left {
+  background-color: #9aa3f8;
+  color: white;
+  border: 0; }
+  .skills-button-left:hover {
+    background-color: #f0c40c;
+    border: 0;
+    cursor: pointer; }
 
 @media screen and (max-width: 1366px) {
   .skills {
@@ -846,7 +863,9 @@ i {
   border-radius: 15px;
   box-shadow: 0px 0px 15px 0px rgba(155, 155, 155, 0.27);
   width: 43px;
-  height: 37px; }
+  height: 37px;
+  border: 0;
+  color: #fff; }
   .footer-button:hover {
     background-color: #9aa3f8; }
 

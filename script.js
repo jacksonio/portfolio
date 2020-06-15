@@ -20,6 +20,7 @@ let swiper = new Swiper('.swiper1', {
 let swiper2 = new Swiper('.swiper2', {
     slidesPerView: 1,
     spaceBetween: 30,
+    loop: true,
     breakpoints: {
       768: {
         slidesPerView: 2,
