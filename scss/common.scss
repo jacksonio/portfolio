@@ -1,5 +1,5 @@
 @import 'variables';
- 
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -50,7 +50,7 @@ a {
     .social {
         font-size: 20px;
         margin-right: 12px;
-    
+
         &:hover {
             color: #edce4f;
         }
@@ -73,8 +73,8 @@ a {
     }
 }
 
-button, 
-button:active, 
+button,
+button:active,
 button:focus {
     outline: none;
     cursor: pointer;
@@ -105,40 +105,15 @@ button:focus {
         position: relative;
         font-size: 35px;
         padding-left: 0;
+
         &::before {
-            top: 20px;
-            left: 35%;
-            height: 3px;
-            width: 50px;
-            position: absolute;
-            content: '';
-            background-color: $purple;
-    }
+            display: none;
 
-        &::after {
-        top: 20px;
-        left: 60%;
-        height: 3px;
-        width: 50px;
-        position: absolute;
-        content: '';
-        background-color: $purple;
-}
-    } 
-}
-
-@media screen and (max-width: 768px) {
-    .section-title {
-       
-        &::before {
-            left: 30%;
-    }
-
-        &::after {
-        left: 63%;
         }
-    } 
+    }
 }
+
+
 
 @media screen and (max-width: 480px) {
     .section-title {
@@ -150,18 +125,12 @@ button:focus {
         &::after {
         left: 70%;
         }
-    } 
+    }
 }
 
 @media screen and (max-width: 360px) {
     .section-title {
        font-size: 30px;
-        &::before {
-            left: 11%;
-    }
 
-        &::after {
-        left: 75%;
-        }
-    } 
+    }
 }

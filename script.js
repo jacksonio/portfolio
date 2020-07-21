@@ -1,4 +1,3 @@
-
 let swiper = new Swiper('.swiper1', {
     slidesPerView: 1,
     slidesPerColumn: 2,

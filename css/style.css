@@ -79,27 +79,7 @@ button:focus {
     font-size: 35px;
     padding-left: 0; }
     .section-title::before {
-      top: 20px;
-      left: 35%;
-      height: 3px;
-      width: 50px;
-      position: absolute;
-      content: '';
-      background-color: #9aa3f8; }
-    .section-title::after {
-      top: 20px;
-      left: 60%;
-      height: 3px;
-      width: 50px;
-      position: absolute;
-      content: '';
-      background-color: #9aa3f8; } }
-
-@media screen and (max-width: 768px) {
-  .section-title::before {
-    left: 30%; }
-  .section-title::after {
-    left: 63%; } }
+      display: none; } }
 
 @media screen and (max-width: 480px) {
   .section-title {
@@ -111,11 +91,7 @@ button:focus {
 
 @media screen and (max-width: 360px) {
   .section-title {
-    font-size: 30px; }
-    .section-title::before {
-      left: 11%; }
-    .section-title::after {
-      left: 75%; } }
+    font-size: 30px; } }
 
 .header-plus-main {
   background-image: url("../pictures/headerBg.png");
@@ -640,7 +616,7 @@ i {
 
 .contacts {
   height: 665px;
-  background: url("../pictures/contactsBg.png") 0 -120px no-repeat, url("../pictures/contactsBg2.png") 0 683px repeat-x;
+  background: url("../pictures/contactsBg.png") 0 120px no-repeat, url("../pictures/contactsBg2.png") 0 683px repeat-x;
   padding-top: 100px; }
   .contacts .section-title {
     margin-top: 0px; }
@@ -664,61 +640,17 @@ i {
       outline: none;
       color: black; }
 
-.contacts-form-name {
-  position: absolute;
-  left: 32px;
-  top: 25px; }
+.btn {
+  height: 50px; }
 
-.contacts-form-surname {
-  position: absolute;
-  left: 315px;
-  top: 25px; }
-
-.contacts-form-email {
-  position: absolute;
-  left: 33px;
-  top: 125px; }
-
-.contacts-form-input-name {
-  position: absolute;
-  left: 27px;
-  top: 70px;
-  width: 215px;
-  height: 50px;
-  border: 0;
+.bkg {
+  background-color: #e1e3fd;
   border-radius: 20px;
-  background-color: #e1e3fd; }
-
-.contacts-form-input-surname {
-  position: absolute;
-  left: 310px;
-  top: 70px;
-  width: 215px;
-  height: 50px;
-  border: 0;
-  border-radius: 20px;
-  background-color: #e1e3fd; }
-
-.contacts-form-input-email {
-  position: absolute;
-  left: 27px;
-  top: 170px;
-  width: 495px;
-  height: 50px;
-  border: 0;
-  border-radius: 20px;
-  background-color: #e1e3fd; }
+  height: 50px; }
 
 .form-text {
   font-size: 15px;
   font-weight: 700; }
-
-.contacts-leave-contact-button {
-  position: absolute;
-  width: 375px;
-  height: 50px;
-  top: 250px;
-  left: 100px; }
 
 @media screen and (max-width: 1920px) {
   .contacts {
@@ -735,9 +667,7 @@ i {
     .contacts .contacts-form-box {
       justify-content: center; }
       .contacts .contacts-form-box .form-text {
-        font-size: 19px; }
-      .contacts .contacts-form-box .form {
-        margin-top: 90px; } }
+        font-size: 19px; } }
 
 @media screen and (max-width: 480px) {
   .contacts {

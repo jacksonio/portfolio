@@ -6,7 +6,8 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#contacts">Contact me</a></li>
                     </ul>
-                </nav> 
+                </nav>
                 <section class="header-main">
                     <h1 class="section-title">My portfolio</h1>
                     <p class="name">I am Yevgenii Saganenko</p>
@@ -38,7 +39,7 @@
                             <li><a href="https://t.me/Sagan_official"><i class="fab fa-telegram-plane social"></i></a></li>
                             <li><a href="https://twitter.com/MwybdZ6yuGiLeez"><i class="fab fa-twitter social"></i></a></li>
                         </ul>
-                </section>      
+                </section>
             </div>
         </header>
     <main>
@@ -60,9 +61,9 @@
                         </a>
 
                     </div>
-                    
+
                 </div>
-            </div> 
+            </div>
         </section>
         <section class="services">
             <div class="container">
@@ -71,22 +72,22 @@
                 <div class="services-container">
                     <div class="item">
                         <img class="logo" src="pictures/developping.png" alt="developping">
-                        <h1 class="header">Web-developing </h1>          
+                        <h1 class="header">Web-developing </h1>
                         <p class="item-description">using advanced technology <br/> and modern design</p>
                     </div>
                     <div class="item">
                         <img class="logo"  src="pictures/24Support.png" alt="24Support">
-                        <h1 class="header">24-hour support</h1>     
+                        <h1 class="header">24-hour support</h1>
                         <p class="item-description">whereby you can always contact me and I will solve yours problems</p>
                     </div>
                     <div class="item">
                         <img class="logo"  src="pictures/convers.png" alt="RealConversation">
-                        <h1 class="header">Real conversation</h1>    
+                        <h1 class="header">Real conversation</h1>
                         <p class="item-description">with me via social network or mail</p>
                     </div>
                     <div class="item">
                         <img class="logo"  src="pictures/data.png" alt="Data services">
-                        <h1 class="header">Data services</h1>       
+                        <h1 class="header">Data services</h1>
                         <p class="item-description">that we are using guarantee you that your data will be safe</p>
                     </div>
                 </div>
@@ -218,18 +219,42 @@
             <div class="container">
                 <h1 class="section-title">Contact me</h1>
                 <div class="contacts-form-box">
-                    <form class="form" action="https://formspree.io/mpzyrjdk" method="POST">
-                        <h1 class="contacts-form-name form-text">Your name</h1>
-                        <input class="contacts-form-input-name"  name="name" placeholder="Enter your name..." type="text"/>
-                        <h1 class="contacts-form-surname form-text">Your surname</h1>
-                        <input class="contacts-form-input-surname" name="surname" placeholder="Enter your surname..." type="text"/>
-                        <h1 class="contacts-form-email form-text">Your email</h1>
-                        <input class="contacts-form-input-email" name="email" placeholder="Enter your email..." type="email"/>
-                        <button type="submit" class="contacts-leave-contact-button btn">Leave contact</button>
-                     </form>
-                </div>     
+<!--                    <form class="form" action="https://formspree.io/mpzyrjdk" method="POST">-->
+<!--                        <label for="nameInput" class="contacts-form-name form-text">Your name</label>-->
+<!--                        <input class="contacts-form-input-name" id="nameInput"  name="name" placeholder="Enter your name..." type="text"/>-->
+<!--                        <label class="contacts-form-surname form-text" for="surnameInput">Your surname</label>-->
+<!--                        <input class="contacts-form-input-surname" id="surnameInput" name="surname" placeholder="Enter your surname..." type="text"/>-->
+<!--                        <label class="contacts-form-email form-text" for="emailInput">Your email</label>-->
+<!--                        <input class="contacts-form-input-email" id="emailInput" name="email" placeholder="Enter your email..." type="email"/>-->
+<!--                        <button type="submit" class="contacts-leave-contact-button btn">Leave contact</button>-->
+<!--                     </form>-->
+                    <form class="form">
+                        <div class="form-row" action="https://formspree.io/mpzyrjdk" method="POST">
+                            <div class="form-group col-md-5 m-3 m-sm-4">
+                                <label for="nameInput" class="form-text">Your name</label>
+                                <input class="form-control bkg" id="nameInput"  name="name" placeholder="Enter your name..." type="text"/>
+                            </div>
+
+                            <div class="form-group col-md-5 m-3 m-sm-4 ">
+                                <label for="surnameInput" class="form-text">Your surname</label>
+                                <input class="form-control bkg"id="surnameInput" name="surname" placeholder="Enter your surname..." type="text"/>
+                            </div>
+
+                            <div class="form-row d-none d-sm-block col-md-11 ml-4">
+                                <label class="form-text" for="emailInput">Your email</label>
+                                <input class="form-control bkg" id="emailInput" name="email" placeholder="Enter your email..." type="email"/>
+                            </div>
+
+                            <div class="form-row col-md-11 m-4">
+                                <div class="form-group col-md-12">
+                                    <button type="submit" class="btn col-md-8 offset-md-2">Leave contact</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-           
+
         </section>
     </main>
     <footer class="footer" id="footer">
@@ -268,7 +293,7 @@
                     </div>
             </div>
     </footer>
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <script src="script.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js" ></script>
 </body>
 </html>

@@ -34,7 +34,7 @@
         color: $grey;
         font-size: 15px;
     }
-   
+
 }
 
 .footer-nav {
@@ -45,7 +45,7 @@
     }
 }
 
- 
+
 .footer-contacts {
     position: relative;
 
@@ -57,7 +57,7 @@
         color: $grey;
         margin-bottom: 27px;
         margin-top: 27px;
-    
+
         i {
             padding-right: 5px;
         }
@@ -106,7 +106,7 @@
         outline: none;
         margin-right: 15px;
       }
-      
+
 }
 
 .footer-button {
@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width: 1366px) {
-    
+
     .footer-body {
         max-width: 1200px;
         justify-self: center;
@@ -208,7 +208,7 @@
                 margin: 16px;
             }
         }
-        
+
     }
 }
 
@@ -230,6 +230,6 @@
                 margin: 16px;
             }
         }
-        
+
     }
 }
